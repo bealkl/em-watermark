@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+.image {
+  width: 45%;
+  object-fit: contain;
+  opacity: 0.2;
+  max-width: 45%;
+  max-height: 768px;
+  /* max-height: 50%; */
+}
+
+.image:hover,
+.image.focus {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 250ms;
+}
